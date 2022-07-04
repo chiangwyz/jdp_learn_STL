@@ -8,7 +8,9 @@ int main() {
 
     //test_iterator();
 
-    test_vector();
+    //test_vector();
+
+    test_vector_capacity_and_size();
 
     return 0;
 }

@@ -10,5 +10,7 @@
 
 void test_vector();
 
+void test_vector_capacity_and_size();
+
 
 #endif //JDP_LEARN_STL_VECTOR_H
