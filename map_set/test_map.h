@@ -5,4 +5,6 @@
 #ifndef JDP_LEARN_STL_TEST_MAP_H
 #define JDP_LEARN_STL_TEST_MAP_H
 
+void test_map();
+
 #endif //JDP_LEARN_STL_TEST_MAP_H
