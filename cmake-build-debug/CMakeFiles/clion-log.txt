@@ -1,4 +1,4 @@
-/home/jdp/Downloads/CLion-2022.1.1/clion-2022.1.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/jdp/Downloads/CLion-2022.1.1/clion-2022.1.1/bin/ninja/linux/ninja -G Ninja -S /home/jdp/Documents/jdp_learn_STL -B /home/jdp/Documents/jdp_learn_STL/cmake-build-debug
+/home/jdp/Downloads/CLion-2022.1.1/clion-2022.1.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/jdp/Documents/jdp_learn_STL/jdp_learn_STL -B /home/jdp/Documents/jdp_learn_STL/jdp_learn_STL/cmake-build-debug
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/jdp/Documents/jdp_learn_STL/cmake-build-debug
+-- Build files have been written to: /home/jdp/Documents/jdp_learn_STL/jdp_learn_STL/cmake-build-debug
