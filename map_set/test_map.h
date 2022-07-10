@@ -7,4 +7,6 @@
 
 void test_map();
 
+void test_map_iterator();
+
 #endif //JDP_LEARN_STL_TEST_MAP_H

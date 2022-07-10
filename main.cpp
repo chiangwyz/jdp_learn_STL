@@ -8,7 +8,9 @@ int main() {
 
     //test_iterator();
 
-    test_map();
+    //test_map();
+
+    test_map_iterator();
 
     return 0;
 }
