@@ -10,7 +10,9 @@ int main() {
 
     //test_map();
 
-    test_map_iterator();
+    //test_map_iterator();
+
+    test_enum_class ();
 
     return 0;
 }

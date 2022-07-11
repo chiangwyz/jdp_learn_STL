@@ -7,6 +7,12 @@
 #include <string>
 using namespace std;
 
+enum class EnumKey {
+    ZERO = 0,
+    ONE = 1,
+    TWO = 2
+};
+
 void test_map(){
     //创建一个空的 map 关联式容器，该容器中存储的键值对，其中键为 string 字符串，值也为 string 字符串类型
     map<string, string> mymap;
@@ -21,6 +27,8 @@ void test_map(){
     }
 
 }
+
+
 
 void test_map_iterator() {
     //创建并初始化 map 容器
@@ -44,3 +52,13 @@ void test_map_iterator() {
 
 }
 
+
+void test_enum_class () {
+    std::map<EnumKey, int> test_map;
+
+    test_map.insert(std::make_pair(EnumKey::ZERO, 4));
+    test_map.insert(std::make_pair(EnumKey::ONE, 5));
+    test_map.insert(std::make_pair(EnumKey::ONE, 4));
+
+    std::cout << test_map.at(EnumKey::ONE) << std::endl;
+}

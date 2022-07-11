@@ -9,4 +9,6 @@ void test_map();
 
 void test_map_iterator();
 
+void test_enum_class ();
+
 #endif //JDP_LEARN_STL_TEST_MAP_H
